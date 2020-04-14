@@ -3,7 +3,8 @@ NYS Salary Information for the local development corporation
 https://www.kaggle.com/new-york-state/nys-salary-information-for-the-public-sector
 
 Data overview:
-Public authorities are required by Section 2800 of Public Authorities Law to submit annual reports to the Authorities Budget Office that include salary and compensation data. The dataset consists of salary data by employees reported by Local Development Corporations beginning with fiscal years ending 2011.
+Public authorities are required by Section 2800 of Public Authorities Law to submit annual reports to the Authorities Budget Office that include salary and compensation data. 
+The dataset consists of salary data by employees reported by Local Development Corporations beginning with fiscal years ending 2011.
 
 What problem are you tackling?
 - Exploring patterns with PT and FT type work
