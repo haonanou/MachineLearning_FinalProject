@@ -1,46 +1,51 @@
-NYS Salary Information for the local development corporation
+# NYS Salary Information for the local development corporation
 
-https://www.kaggle.com/new-york-state/nys-salary-information-for-the-public-sector
+[Link to Data Source](https://www.kaggle.com/new-york-state/nys-salary-information-for-the-public-sector)
 
-Data overview:
+### Group Members
+- Santosh Suwal
+- HaoNan Ou
+- Zhiqiang Wang
+
+## Data overview:
 Public authorities are required by Section 2800 of Public Authorities Law to submit annual reports to the Authorities Budget Office that include salary and compensation data. 
 The dataset consists of salary data by employees reported by Local Development Corporations beginning with fiscal years ending 2011.
 
-What problem are you tackling?
+## What problem are you tackling?
 - Exploring patterns with PT and FT type work
 - What position group makes more
 - Payment over actually salary (including overtime, bonus and other allowances)
 
-Exploratory Data Analysis:
+## Exploratory Data Analysis:
 - Identification of variables and data types
 
-Data Preprocessing:
+## Data Preprocessing:
 - Dealing with missing values
 - Adding dummy variables for features with a lot of zeros to improve model fits.
 - Encoding categorical variables
 - Standardising / normalizing 
 - Matrix plot and exploratory data Viz.
 
-Feature Selection:
+## Feature Selection and/or Extraction:
 - Use Random forest to do feature selection to remove least important features.
 - Use PCA to compare results
 
-Is this an application or a theoretical result? 
+# Is this an application or a theoretical result? 
 - algorithmic
 
-What machine learning techniques are you planning to apply or improve upon? 
+# What machine learning techniques are you planning to apply or improve upon? 
 - Linear regression and Logistic regression
 - Knn classifier
 - Random forest
 - Tree classifier
 - Support Vector Machines
 
-Intended experiments: What experiments are you planning to run? 
+# Intended experiments: What experiments are you planning to run? 
 - Trying different algorithms to predict same clustering or grouping
 - Fitting linear regression on to the baseline salary
 - Logistic regression to classify
 - Evaluation the model with accuray
 
-How do you plan to evaluate your machine learning algorithm? 
+# How do you plan to evaluate your machine learning algorithm? 
 - Use Dummy Classifier for baseline metric for evaluation
 - Use different types of classifiers to compare results and find the one with best performance
