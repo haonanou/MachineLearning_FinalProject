@@ -3,6 +3,8 @@
 
 1. League of Legend
 
+    [Data Source](https://www.kaggle.com/bobbyscience/league-of-legends-diamond-ranked-games-10-min)
+    
     [Link to Markdown](./lol.md)
 
 2. House Prices
