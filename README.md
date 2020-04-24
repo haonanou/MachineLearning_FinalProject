@@ -5,8 +5,7 @@
 
 [Data Source](https://www.kaggle.com/bobbyscience/league-of-legends-diamond-ranked-games-10-min)
     
-[Link to Markdown](./lol.md)
-
+[Link to Markdown](./Proposal.md)
 
 ### Group Members
 - Santosh Suwal
