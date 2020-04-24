@@ -3,9 +3,9 @@
 
  League of Legend
 
-    [Data Source](https://www.kaggle.com/bobbyscience/league-of-legends-diamond-ranked-games-10-min)
+[Data Source](https://www.kaggle.com/bobbyscience/league-of-legends-diamond-ranked-games-10-min)
     
-    [Link to Markdown](./lol.md)
+[Link to Markdown](./lol.md)
 
 
 ### Group Members
