@@ -34,6 +34,7 @@ The column blueWins is the target value (the value we are trying to predict). A 
 - we can test on each attributes, to figure out which arttributes have main impact to win the game.
 - Also base on map design, blue team is close to Elite monster place, and red team have easy control in dragons, we can make hypothesis test to see is red team always get more dragons and blue team always get more elite monster. 
 - does team get more elite monster have higher win rate than the team get the dragons. and to slove one issues why blue team have higher winrate than red team.
+- Also we can classfier red/blue team base on how many dragon get and elite monster get.
 
 
 ## Exploratory Data Analysis:
