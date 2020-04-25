@@ -14,7 +14,7 @@ This dataset contains the first 10min. stats of approx. 10k ranked games (SOLO Q
 
 Each game is unique. The gameId can help you to fetch more attributes from the Riot API.
 
-There are 19 features per team (38 in total) collected after 10min in-game. This includes kills, deaths, gold, experience, level… It's up to you to do some feature engineering to get more insights.
+There are 19 features per team (38 in total) collected after 10min in-game. This includes kills, deaths, gold, experience, level, and so on. It's up to you to do feature engineering to get detailed insights.
 
 The column blueWins is the target value (the value we are trying to predict). A value of 1 means the blue team has won. 0 otherwise.
 
@@ -30,11 +30,11 @@ The column blueWins is the target value (the value we are trying to predict). A 
 
 ## What problem are you tackling?
 - Classify LOL ranked games outcome by looking at the first 10 min worth of data.
-- Since warding totem is use for player can put on the map, it useful for map control, it can make hypothesis test, does team put more wards will have higher probabilty can win the game.
-- we can test on each attributes, to figure out which arttributes have main impact to win the game.
-- Also base on map design, blue team is close to Elite monster place, and red team have easy control in dragons, we can make hypothesis test to see is red team always get more dragons and blue team always get more elite monster. 
-- does team get more elite monster have higher win rate than the team get the dragons. and to slove one issues why blue team have higher winrate than red team.
-- Also we can classfier red/blue team base on how many dragon get and elite monster get.
+- Since the warding totem is used by a player for map control, a hypothesis test question can be conducted: Do teams put more wards will cause a higher probability of winning the game?
+- We can test every attribute and figure out which attributes have the main impact to win the game.
+- Based on the map design, the blue team is close to Elite monster place, and the read team has easy control in dragons. We can make a hypothesis test to see if the red team and the blue team always have dragons and Elite monsters in control, respectively. 
+- Another hypothesis test is to see if the team gets more elite monsters have a higher win rate than the team gets the dragons and to explore why the blue team has a higher win rate than the red team.
+- Finally, we can classifier both teams based on how many dragons and elite monsters in control.
 
 
 ## Exploratory Data Analysis:
@@ -44,11 +44,11 @@ The column blueWins is the target value (the value we are trying to predict). A 
 - Dealing with missing values
 - Adding dummy variables for features with a lot of zeros to improve model fits.
 - Encoding categorical variables
-- Standardising / normalizing 
+- Standardizing / normalizing 
 - Matrix plot and exploratory data Viz.
 
 ## Feature Selection and/or Extraction:
-- Use Random forest to do feature selection to remove least important features.
+- Use Random forest to do feature selection to remove the least important features.
 - Use PCA to compare results
 
 # Is this an application or a theoretical result? 
@@ -56,17 +56,17 @@ The column blueWins is the target value (the value we are trying to predict). A 
 
 # What machine learning techniques are you planning to apply or improve upon? 
 - Linear regression and Logistic regression
-- Knn classifier
+- KNN classifier
 - Random forest
 - Tree classifier
 - Support Vector Machines
 
 # Intended experiments: What experiments are you planning to run? 
-- Trying different algorithms to predict same clustering or grouping
+- Trying different algorithms to predict the same clustering or grouping
 - Fitting linear regression on to the baseline salary
 - Logistic regression to classify
-- Evaluation the model with accuray
+- Evaluation of the model with accuracy
 
 # How do you plan to evaluate your machine learning algorithm? 
 - Use Dummy Classifier for baseline metric for evaluation
-- Use different types of classifiers to compare results and find the one with best performance
+- Use different types of classifiers to compare results and find the one with the best performance
