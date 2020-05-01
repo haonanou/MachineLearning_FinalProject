@@ -31,16 +31,13 @@ The column blueWins is the target value (the value we are trying to predict). A 
 ## What problem are you tackling?
 - Classify LOL ranked games outcome by looking at the first 10 min worth of data.
 - Since the warding totem is used by a player for map control, a hypothesis test question can be conducted: Do teams put more wards will cause a higher probability of winning the game?
-- We can test every attribute and figure out which attributes have the main impact to win the game.
-- Based on the map design, the blue team is close to Elite monster place, and the read team has easy control in dragons. We can make a hypothesis test to see if the red team and the blue team always have dragons and Elite monsters in control, respectively. 
+- We can test every attribute and figure out which attributes have the main impact on winning the game.
+- Based on the map design, the blue team is close to Elite monster place, and the red team has easy control in dragons. We can make a hypothesis test to see if the red team and the blue team always have dragons and Elite monsters in control, respectively. 
 - Another hypothesis test is to see if the team gets more elite monsters have a higher win rate than the team gets the dragons and to explore why the blue team has a higher win rate than the red team.
-- Finally, we can classifier both teams based on how many dragons and elite monsters in control.
-
-
-## Exploratory Data Analysis:
-- Identification of variables and data types
+- Finally, we can classify both teams based on how many dragons and elite monsters in control.
 
 ## Data Preprocessing:
+- Identification of variables and data types
 - Dealing with missing values
 - Adding dummy variables for features with a lot of zeros to improve model fits.
 - Encoding categorical variables
