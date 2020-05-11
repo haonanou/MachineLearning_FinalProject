@@ -1,16 +1,30 @@
-# MachineLearning_FinalProject
+# Predicting Game Result
 
-
- League of Legend
-
-[Data Source](https://www.kaggle.com/bobbyscience/league-of-legends-diamond-ranked-games-10-min)
-    
-[Link to Markdown](./Proposal.md)
-
-### Group Members
+## Group Members
 - Santosh Suwal
 - HaoNan Ou
 - Zhiqiang Wang
 
+## Abstract
+
+## Introduction
+
+## Background
+
+## Data
+
+[Data Source](https://www.kaggle.com/bobbyscience/league-of-legends-diamond-ranked-games-10-min)
+    
+## Method
+
+## Evaluation
+
+## Concluson
+
 ### Contents
 - [Proposal](./Proposal.md)
+
+
+
+
+
