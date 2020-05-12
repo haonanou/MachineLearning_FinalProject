@@ -15,18 +15,40 @@ The data includes first 10 min stats from League of Legends Game including the t
 Similarly, a data scientist named Shayaan Jagtap(2018) wrote about predicting game outcomes by looking at key features such as kills, gold differences, etc. Jagtap conducted several predictive models, particularly, a Logistics Regression with a 75.78% accuracy, one of the best models of the highest accuracy, in the first 15 mins of the game, which is very close to our result. Interestingly, Jagtap found out that the chance of correctly predicting the winning team in the early game(about first 5 minutes) was not very high since ‘Your enemy could always turn the tide.' However, the prediction become more accurate as the game went on.
 
 ## Data
+The data is found on Kaggle. The data set contained 9879 observations with 40 features. there are 19 features per team except gameid and the target variable as indicated above.
 
 [Data Source](https://www.kaggle.com/bobbyscience/league-of-legends-diamond-ranked-games-10-min)
     
 ## Method
+   - EDA
+        - Data Cleaning
+        - Check correlation between features
+        - Identify Missing Data
+        - Dectect outliers
+        - Split Data
+   - Features scaling
+   - Classfications
+        - LogisticRegression 
+        - K-Nearest Neighbors
+        - DecisionTree 
+        - RandomForest
+        - SVM
+        - Tensorflow Keras
 
 ## Evaluation
+    - Feature Importance with random Forests
+    - PCA
+    - LDA
+    - Grid Serach CV
+    - ROC & AUC
+    - learning and validation curves
+    
 
 ## Concluson
 The accuracy of models ranges from 68-74%. Logisitic Regression does better in classifying. Keras/Tensorflow with single layer using softmax activation worked better on raw, standard scaled and min max scaled data. So, using the models we can be ~70% sure whether a blue team or red team is going to win based on first 10mins of game play stats.
 
 ### Contents
-- [Proposal](./Proposal.md)
+- [Final Report](./final_report.ipynb)
 
 
 
