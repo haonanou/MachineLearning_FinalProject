@@ -36,12 +36,12 @@ The data is found on Kaggle. The data set contained 9879 observations with 40 fe
         - Tensorflow Keras
 
 ## Evaluation
-    - Feature Importance with random Forests
-    - PCA
-    - LDA
-    - Grid Serach CV
-    - ROC & AUC
-    - learning and validation curves
+   - Feature Importance with random Forests
+   - PCA
+   - LDA
+   - Grid Serach CV
+   - ROC & AUC
+   - learning and validation curves
     
 
 ## Concluson
