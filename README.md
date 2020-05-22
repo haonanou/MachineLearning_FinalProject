@@ -49,7 +49,8 @@ The accuracy of models ranges from 68-74%. Logisitic Regression does better in c
 
 ### Contents
 - [Final Report](./final_report.ipynb)
-- [Final PPT](./slides/ppt.pptx)
+- [Final Presentation PDF](./slides/Final_Powerpoint.pdf)
+- [Final PPT](./slides/Final_Powerpoint.pptx)
 
 
 
